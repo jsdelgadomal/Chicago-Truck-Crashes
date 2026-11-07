@@ -1,0 +1,9 @@
+time_block,LIGHTING_CONDITION,crashes,injury_pct
+midday,DAYLIGHT,23606,8.3
+midday,UNKNOWN,389,2.8
+midday,DUSK,122,13.9
+midday,"DARKNESS, LIGHTED ROAD",112,8.0
+overnight,"DARKNESS, LIGHTED ROAD",1767,16.8
+overnight,DARKNESS,287,10.8
+overnight,DAYLIGHT,259,12.4
+overnight,DAWN,188,14.9

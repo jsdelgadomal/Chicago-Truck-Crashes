@@ -1,0 +1,16 @@
+fleet_group,time_block,crashes,injury_pct
+commercial_van,1 overnight (12-5am),89,7.9
+commercial_van,2 morning rush (6-9am),613,12.9
+commercial_van,3 midday (10am-3pm),1863,9.9
+commercial_van,4 evening rush (4-7pm),644,9.8
+commercial_van,5 night (8-11pm),128,13.3
+freight,1 overnight (12-5am),1104,14.8
+freight,2 morning rush (6-9am),4623,8.1
+freight,3 midday (10am-3pm),8548,8.1
+freight,4 evening rush (4-7pm),2785,9.2
+freight,5 night (8-11pm),966,9.8
+local_truck,1 overnight (12-5am),1518,15.5
+local_truck,2 morning rush (6-9am),7401,8.1
+local_truck,3 midday (10am-3pm),15821,8.3
+local_truck,4 evening rush (4-7pm),5299,9.1
+local_truck,5 night (8-11pm),1750,12.1
