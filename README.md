@@ -3,7 +3,6 @@
 **Question:** When are crashes involving trucks in Chicago most likely to involve an injury, and what could a delivery or freight fleet do with that?
 
 **Dashboard:** [View on Tableau Public](https://public.tableau.com/views/ChicagoTruckCrashesWhenSeverityPeaks/TruckCrashSeverity?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-**Notebook:** [`Chicago Traffic Crashes.ipynb`](Chicago Traffic Crashes.ipynb) (all SQL and exports)
 
 ---
 
