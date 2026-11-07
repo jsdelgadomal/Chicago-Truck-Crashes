@@ -53,6 +53,7 @@ Each crash is counted once per group, even if several trucks were involved.
 4. Calculated injury share (crashes with at least one reported injury divided by all crashes) by time block, lighting condition, and crash type, using `GROUP BY`, `FILTER`, CTEs, and window functions.
 5. Checked robustness by recomputing the overnight and midday gap separately for each year.
 6. Exported aggregated results to CSV and built the dashboard in **Tableau Public**.
+7. Estimated the overnight vs. midday difference in injury share with 95% confidence intervals. (newcombe method for the difference, statsmodels).
 
 Time blocks: overnight = 12-5 AM, midday = 10 AM-3 PM.
 
@@ -62,7 +63,7 @@ Time blocks: overnight = 12-5 AM, midday = 10 AM-3 PM.
 
 ### 1. Overnight truck crashes are nearly twice as likely to involve injury
 
-- **Evidence:** 15.2% overnight vs 8.2% midday. Overnight beats midday in all eight years, by 2.9 points in the smallest year (2020) and 10.4 points in the largest (2024). Midday stays between 7.8% and 8.9%.
+- **Evidence:** Overnight truck crashes involved an injury 15.2% of the time (396 of 2,600) versus 8.3% at midday (1,987 of 24,083). The difference is 7.0 percentage points (95% CI 5.6 to 8.5), a ratio of 1.85 (95% CI 1.67 to 2.04). The overnight share is higher than midday in each of the eight years.
 - **Possible action:** Treat overnight runs as the high-severity window. They are infrequent, but a crash is much more likely to cause injury.
 
 ### 2. The gap is not explained by darkness
